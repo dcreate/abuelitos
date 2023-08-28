@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: #d692c7;
+    cursor: crosshair;
+    font-family:'Oregano', Arial, Helvetica, sans-serif;
+  }
+  canvas{display:block}
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #a41fbe;
+    font-family: 'Oregano', sans-serif;
+    font-size: 5em;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  h2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ce56aa;
+    font-family: 'Oregano', sans-serif;
+    font-size: 5em;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  img{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    
+  }
+  @media (max-width: 600px) {
+    h1, h2{
+        font-size: 4em;
+    }
+    img{
+        left: 30%;
+    }
+  }
+  
